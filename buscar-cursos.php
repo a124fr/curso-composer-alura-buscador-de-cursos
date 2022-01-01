@@ -1,3 +1,5 @@
+#!/usr/bin/env php
+
 <?php
 
 require __DIR__ . DIRECTORY_SEPARATOR .'vendor/autoload.php';
@@ -17,5 +19,5 @@ $buscardor = new Buscardor($client, $crawler);
 $cursos = $buscardor->buscar('/cursos-online-programacao/php');
 
 foreach ($cursos as $curso) {
-    echo exibeMensagem($curso);
+    exibeMensagem($curso);
 }
