@@ -1,7 +1,7 @@
 #!/usr/bin/env php
 <?php
 
-require __DIR__ . DIRECTORY_SEPARATOR .'vendor/autoload.php';
+require 'vendor/autoload.php';
 
 use \GuzzleHttp\Client;
 use \Symfony\Component\DomCrawler\Crawler;
